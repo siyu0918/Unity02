@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3559297176007848099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3559297176007848097}
+  - component: {fileID: 3559297176007848096}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3559297176007848097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559297176007848099}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.88, y: 4.74, z: -5.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3559297176007848096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559297176007848099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351b357d8278b4b8da32f976c630e4af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 743438045196152327, guid: fd87c0157f84e70499b6f0d2e5745277, type: 3}
+  - {fileID: 7852085269161723448, guid: a3bfc3e45b2ad3240bfb61be01c6b0cc, type: 3}
+  - {fileID: 7365565473090320723, guid: dd8e80da7a974b34896e4842d777f8e6, type: 3}
+  - {fileID: -2867558465275140239, guid: 1a2c5d20df9836746952e9dd30c1eef7, type: 3}
+  - {fileID: -2666302292404239100, guid: a7e9de13a2d3b6f4eaa647fc7d59d825, type: 3}
+  - {fileID: -6690015987100037294, guid: 9eb99e5e812a3be4abaeb36f88728844, type: 3}
+  - {fileID: -5311913305637333642, guid: 220421c96d33ac14987235d96151786f, type: 3}
+  spawnRadius: 8
+  spawnCount: 800
+  colour: {r: 0.1509434, g: 0.059333082, b: 0.059333082, a: 0}
+  showSpawnRegion: 1
+  minScale: 0.05
+  maxScale: 0.25

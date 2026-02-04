@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 65886712881c3e447b1fd6b324798713
+timeCreated: 1563300122
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174383
+  packageName: Strong Whale
+  packageVersion: 1.0
+  assetPath: Assets/Whale/WhaleAssets/Materials/Whale.mat
+  uploadId: 378271
